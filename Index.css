@@ -1,0 +1,215 @@
+/*Section A start*/
+
+
+
+.background::before{
+    content:counter(form);
+    background-image: url(background1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right:0%;
+    opacity: 0.5;
+    
+}
+form{
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.navbar{
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: block;
+    color: brown;
+    
+}
+.button{
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 5px;
+    background-color: rgb(189, 167, 167);
+}
+.button:hover{
+    color: brown;
+    box-shadow: 0px 0px 35px ;
+
+}
+.button1{
+    border-radius: 5px;
+    background-color: rgb(189, 167, 167);
+}
+.button1:hover{
+    color: brown;
+    box-shadow: 0px 0px 35px ;
+}
+.button2{
+    padding-left: 12px;
+    padding-right: 11.5px;
+    border-radius: 5px;
+    background-color: rgb(189, 167, 167);
+}
+.button2:hover{
+    color: brown;
+    box-shadow: 0px 0px 35px;
+}
+.logo{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 140px;
+    height: 130px;
+}
+
+
+.edit1{
+    text-align: center;
+}
+
+.name{
+    margin-left: 190px;
+    border-radius: 2px;
+}
+.year{
+    margin-left: 266px;
+    border-radius: 2px;
+}
+.branch{
+    margin-left: 302px;
+    border-radius: 2px;
+}
+.mname{
+    margin-left: 259px;
+    border-radius: 2px;
+}
+.admission{
+    margin-left: 11.5px;
+    border-radius: 2px;
+}
+.student{
+    margin-left: 203px;
+    
+}
+
+.parents{
+    margin-left: 301.5px;
+}
+.guardian{
+    margin-left: 301.5px;
+}
+.stu{
+    border-radius: 2px;
+    margin-left: 15px;
+}
+.stud{
+    border-radius: 2px;
+    margin-left: 14.5px;
+}
+.st{
+    border-radius: 2px;
+    margin-left: 3px;
+}
+
+.email{
+    margin-left: 289px;
+    border-radius: 2px;
+}
+
+.gender{
+    margin-left: 300px;
+}
+.date{
+    margin-left: 260px;
+    border-radius: 2px;
+}
+
+.place{
+    border-radius: 2px;
+    margin-left: 251.5px;
+}
+.cast{
+    margin-left: 312px;
+    border-radius: 2px;
+}
+.category{
+    margin-left: 29px;
+    border-radius: 2px;
+}
+.aadhar{
+    margin-left: 231.5px;
+    border-radius: 2px;
+}
+.pan{
+    border-radius: 2px;
+    margin-left: 285.5px;
+}
+/* Section A end*/
+
+/*Section B start*/
+.permanent{
+    margin-left: 142px;
+    border-radius: 2px;
+}
+.local{
+    margin-left: 174px;
+    border-radius: 2px;
+}
+/*SectionB end*/
+
+/*Section C start*/
+
+table{
+    
+    background-color:black;
+}
+.tabbac{
+    background-color: rgb(226, 215, 181) ;
+}
+th{
+    
+    background-color: rgb(222, 175, 134);
+}
+td{
+    background-color: rgb(226, 215, 181);
+}
+span{
+    margin-left: 17px;
+}
+.filea{
+    margin-left: 136px;
+}
+.fileb{
+    margin-left: 15px;
+}
+/* Section C end*/
+
+.submit{
+    background-color: rgb(203, 161, 98);
+    border-radius: 3px;
+    margin-left: 50%;
+}
+.submit:hover{
+    color: rgb(111, 47, 41);
+    box-shadow: 0px 0px 35px;
+}
+.reset{
+    background-color: rgb(203, 161, 98);
+    border-radius: 3px;
+}
+.reset:hover{
+    
+    color:rgb(111, 47, 41);
+    box-shadow: 0px 0px 35px;
+}
